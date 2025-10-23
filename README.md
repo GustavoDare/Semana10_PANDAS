@@ -44,6 +44,7 @@ Ambos os modelos foram treinados por 10 épocas com batch size = 128, usando 10%
 Modelo	Estrutura	Épocas	Acurácia (teste)
 - CNN Simples	2 conv + 1 densa	10	0.9075
 - CNN Profunda	3 conv + dropout	10	0.9274
+
 A CNN mais profunda apresentou melhor desempenho geral, evidenciando que o aumento da profundidade e o uso de dropout ajudaram a reduzir o overfitting e a melhorar a capacidade de generalização.
 
 ### Visualização dos Treinamentos
