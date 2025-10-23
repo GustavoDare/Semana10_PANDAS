@@ -2,18 +2,23 @@
 
 ## Descrição do Projeto
 Este projeto tem como objetivo comparar o desempenho de duas arquiteturas de Redes Neurais Convolucionais (CNNs) aplicadas à classificação de imagens do dataset Fashion-MNIST.
+
 O conjunto de dados contém 70.000 imagens em tons de cinza (28×28 pixels), divididas entre 10 classes de roupas e acessórios (como camisetas, calçados e bolsas).
+
 Foi utilizado o dataset do kaggle "Fashion MNIST", retirado do link: https://www.kaggle.com/datasets/zalando-research/fashionmnist
 
 ## Etapas do Projeto
 
 ### Carregamento dos dados:
 Os arquivos fashion-mnist_train.csv e fashion-mnist_test.csv foram lidos via Pandas.
+
 A primeira coluna representa o rótulo da classe, e as demais contêm os 784 pixels da imagem.
 
 ### Pré-processamento:
 Normalização dos valores de pixels para o intervalo [0, 1];
+
 Redimensionamento das imagens para (28, 28, 1);
+
 Separação entre treino, validação e teste.
 
 ### Modelos testados:
@@ -51,4 +56,5 @@ CNN Profunda
 
 ### Conclusão
 O experimento confirma que CNNs são altamente eficazes para classificação de imagens.
+
 Mesmo um modelo relativamente simples já alcança mais de 90% de acurácia, enquanto uma rede mais profunda e regularizada pode ultrapassar 92%.
